@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto cancello automatico</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Cancello blu.ico"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                   <li><a href=""></a>Home</li> 
+                   <li><a href=""></a>About</li> 
+                   <li><a href=""></a>Difficoltà riscontrate</li> 
+                   <li><a href="Elettronica.html"></a>Realizzazione parte elettronica</li>
+                   <li><a href=""></a>Realizzazione parte meccanica</li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <h1>Parte Elettronica</h1>
+    </section>
+
+
+    
+  <!--------about content----->
+
+<section class="chi-Siamo">
+    <div class="row">
+        <div class="chi-Siamo-col">
+           <h1>Circuito e programmazione</h1>
+           <p>Per la realizzazione del circuito elettrico abbiamo utilizzato una breadboars sulla quale abbiamo posizionato tutti componenti che formano il circuito:</p>
+           <p>diodi led, resistenze, finecorsa e un relé.</p>
+           <p>Tra tutti il componente più importante è il relé che in questo circuito è utilizzato per la sua capacità di poter essere comandato da segnali di bassa potenza come il telecomando a infrarossi per poter funzionare come un interruttore.</p>
+           <p>Questa funzione del relé è utilizzata per permettere al motore di cambiare verso di rotazione</p>
+           <a href="https://app.moqups.com/bOg0QROSuEc1MCQirV8pImWnYqy5PgCp/edit/page/af3aeb4c6" class="hero-btn blu-btn">Schema circuito</a>
+        </div>
+       
+        <div class="chi-Siamo-col">
+            <video controls src="1X1.mp4" >
+        </div>
+    </div>
+</section>
+
+
+
+<!---javascript per menu a tenda-->
+ <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    
+
+
+
+    
+<!-----footer----> 
+<section class="footer">
+    <h4>Chi siamo</h4>
+    <p> Gruppo Iron gate Inc. formato da <b>Tidiane diaby</b>,Doudu diop e Rashid</p><br>
+    <p>Sito realizzato da Diaby Tidiane.</p>
+</section>
+</body>
+</html>
+</body>
+</html>

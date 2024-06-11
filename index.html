@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto cancello automatico</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Cancello blu.ico"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                   <li><a href=""></a>Home</li> 
+                   <li><a href=""></a>About</li> 
+                   <li><a href=""></a>Difficoltà riscontrate</li> 
+                   <li><a href=""></a>Realizzazione parte elettronica</li>
+                   <li><a href=""></a>Realizzazione parte meccanica</li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Progetto cancello automatico</h1>
+            <p>
+              Con questo progetto io ed il mio gruppo  "Iron Gates Inc." abbiamo progettato ed costruito un cancello automatico azionato da un telecomando a infrarossi.<br>
+               il cancello ha la  funzione di svolgeva un ciclo di apertura inseguto alla pressione del telecomando.<br>
+                l'apertura del cancello a scorrrimento continua fino ad arrestarsi nel punto nel quale fa contatto con il fine corsa, ed dal contatto con il primo finecorsa inizia un ciclo di chiusura che si protrare fino al contatto con il secondo finecorsa .
+            </p>
+            <a href="Elettronica.html" class="hero-btn">Video</a>
+        </div>
+        
+
+
+    </section>
+
+
+    <!----suddivisione ruoli-->
+    <section class="SuddivisioneRuoli">
+        <h1>Suddivisione dei ruoli</h1>
+        <div class="row">
+            <div class="SuddivisioneRuoli-col">
+        <h3>Parte Elettronica </h3>
+        <p>
+            Per la realizzazione del cancello automatico io e i due componenti del mio gurppo ci siammo suddivisi il lavoro nel seguente modo:<br>
+            Io e doudou ci siamo occupati della realizzazione del circuito elettrico e della programmazione della scheda arduino.
+        </p>
+       
+        
+    </div>
+    <div class="SuddivisioneRuoli-col">
+        <h3>Parte meccanica </h3>
+        
+        <p> Per la realizzazione della parte meccanica mi sono occupato della realizzazione del supporto del motore ed del giunto, Doudou si è occupato della realizzazione dell'anello elastico e dell'accopiamento per interferenza del cuscinetto, mentre rashid si è occupato della realizzazione di tutta la parte strutturale del cancello che includono: le ruote, il binario sul quale scorrono le ruote, i supporti delle ruote, gli appoggi dei finecorsa e le guide della parte scorrevole del cancello.
+
+        </p>
+    </div>
+    </div>
+    </section>
+
+
+    <!----Parte dettagli-->
+    <section class="dettagli">
+        <h1>cricuito e programmazione Arduino| Parte meccanica</h1>
+        <div class="row">
+            
+
+
+
+
+            <div class="dettagli-col">
+           <a href="Elettronica.html"><img src="foto-Meccanica.jpg" height="440">
+            <div class="layer"></a>
+                <h3>Elettronica </h3>
+
+            </div>
+
+            </div>
+            <div class="dettagli-col">
+                <a href="Elettronica.html"><img src="CC.jpg" height="440"></a>
+             <div class="layer">
+                    <h3>meccanica </h3>
+                
+                </div>
+           
+                </div>
+                
+        </div>
+    </a>
+
+
+
+    </section>
+
+
+
+    <!--------javascript per menu a tenda----------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+   <!-----footer----> 
+    <section class="footer">
+        <h4>Chi siamo</h4>
+        
+        <p> Gruppo Iron gate Inc. formato da <b>Tidiane diaby</b>,Doudu diop e Rashid</p><br>
+        <p>Sito realizzato da Diaby Tidiane.</p>
+    </section>
+</body>
+</html>
